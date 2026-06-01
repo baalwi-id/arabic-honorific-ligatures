@@ -1,6 +1,10 @@
 # arabic-honorific-ligatures
 
-> Handcrafted SVG artwork for 47 Arabic Islamic honorific ligatures—freely available for use in any digital or print project.
+> SVG artwork for 47 Arabic Islamic honorific ligatures—freely available for use in any digital or print project.
+
+[![npm](https://img.shields.io/npm/v/arabic-honorific-ligatures)](https://www.npmjs.com/package/arabic-honorific-ligatures)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![GitHub](https://img.shields.io/badge/GitHub-baalwi--id-teal)](https://github.com/baalwi-id)
 
 ---
 
