@@ -1,0 +1,14 @@
+{
+  "name": "arabic-honorific-ligatures",
+  "version": "1.0.0",
+  "description": "SVG artwork for 47 Arabic Islamic honorific ligatures",
+  "keywords": ["arabic", "islamic", "honorific", "svg", "typography", "calligraphy"],
+  "author": "BaAlwi Heritage (ID) <info@baalwi.net>",
+  "license": "CC-BY-4.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/baalwi-id/arabic-honorific-ligatures.git"
+  },
+  "homepage": "https://baalwi.net",
+  "files": ["svg/", "png/", "specimen/", "README.md", "LICENSE"]
+}
