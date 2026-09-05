@@ -184,7 +184,7 @@ Interested in developing this artwork into a full font, or have ideas for collab
 
 ## License
 
-CC BY 4.0—Copyright (c) 2026 BaAlwi Heritage (ID)
+CC BY 4.0—Waqf 2026 by BaAlwi Heritage (ID)
 
 **About BaAlwi Heritage:** Ba Alawi Masters Heritage Trust is dedicated to the preservation and advancement of the cultural and textual heritage of the Ba'alwi Masters—collecting, authenticating, and digitising manuscripts and making them freely available through digital platforms and emerging technologies. Learn more at [baalwi.net](https://baalwi.net).
 
