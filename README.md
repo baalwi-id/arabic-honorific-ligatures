@@ -170,6 +170,8 @@ Files follow the pattern `{prefix}-{transliteration}.svg`, where prefix indicate
 
 > **Note on USV:** Unicode Scalar Values listed above are based on the honorific encoding in [Scheherazade New](https://software.sil.org/scheherazade/honorifics/) and the [Unicode Arabic Honorifics proposal](https://www.unicode.org/L2/L2019/19289r-arabic-honorifics.pdf). Some glyphs use codepoints from the Arabic Extended-C block (U+10ED0–U+10EFF), added in Unicode 15.1. Glyphs marked `—` do not yet have assigned Unicode codepoints and are candidates for Private Use Area (PUA) encoding. A proposal to contribute this artwork to Scheherazade New has been submitted—see [issue #15](https://github.com/silnrsi/font-scheherazade/issues/15).
 
+> **Note on ta'ala (تعالى) variants:** phrases that differ from an existing entry only by inserting "ta'ala" (e.g. *sallallāhu ta'ālā 'alayhi wa sallam* vs. the included *sallallāhu 'alayhi wa sallam*) are intentionally not included as separate glyphs—they don't carry a meaningfully different sense from the base form. This applies even where Unicode has assigned a separate codepoint for the ta'ala variant (e.g. U+FBD0).
+
 ---
 
 ## Contributing
