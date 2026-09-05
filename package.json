@@ -22,6 +22,7 @@
     "png/",
     "specimen/",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "!**/desktop.ini"
   ]
 }
