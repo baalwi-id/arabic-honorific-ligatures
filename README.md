@@ -118,7 +118,7 @@ Files follow the pattern `{prefix}-{transliteration}.svg`, where prefix indicate
 | rhm-rahimahu-allah.svg | رحمه الله | raḥimahullāh | FD40 |
 | rhm-rahimaha-allah.svg | رحمها الله | raḥimahallāh | — |
 | rhm-rahimahum-allah.svg | رحمهم الله | raḥimahumullāh | FD4F |
-| rhm-rahimahuma-allah.svg | رحمهما الله | raḥimahumallāh | FBCA |
+| rhm-rahimahuma-allah.svg | رحمهما الله | raḥimahumallāh | FBC9 |
 | rhm-rahimahunna-allah.svg | رحمهن الله | raḥimahunnallāh | — |
 
 ### rmt — Rahmatullah
@@ -142,7 +142,7 @@ Files follow the pattern `{prefix}-{transliteration}.svg`, where prefix indicate
 | qds-qaddasallahu-sirraha.svg | قدس الله سرها | qaddasallāhu sirrahā | — |
 | qds-qaddasallahu-sirrahum.svg | قدس الله سرهم | qaddasallāhu sirrahum | — |
 | qds-qaddasallahu-sirrahuma.svg | قدس الله سرهما | qaddasallāhu sirrahumā | — |
-| qds-quddisa-sirrahuma.svg | قدس سرهما | quddisa sirrahumā | — |
+| qds-quddisa-sirrahuma.svg | قدس سرهما | quddisa sirrahumā | 10ED6 |
 | qds-quddisa-sirrahum.svg | قدس سرهم | quddisa sirrahum | 10ED5 |
 | qds-quddisat-asrarahum.svg | قدست أسرارهم | quddisat asrāruhum | 10ED7 |
 
