@@ -22,12 +22,8 @@ This collection addresses that gap. The artwork was handcrafted in Inkscape, whi
 
 Each glyph is available in two styles:
 
-- **Ornate** (`svg/ornate/`) — the original calligraphic form, with full ornamental strokes and diacritics (harakat), as described above.
-- **Simplified** (`svg/simplified/`, filenames prefixed `smp-`) — the same ligature with diacritics and ornamental marks removed, leaving only the base letterforms. Intended for small sizes or contexts where the ornate style's fine detail becomes hard to discern.
-
-For any given glyph, the ornate and simplified artwork are sized to match — no manual rescaling needed when swapping one style for the other.
-
-The `specimen/` sheet currently covers the ornate style only.
+- **Ornate** (`svg/ornate/`)—the original calligraphic form, with full ornamental strokes and diacritics (harakat), as described above.
+- **Simplified** (`svg/simplified/`, filenames prefixed `smp-`)—the same ligature with diacritics and ornamental marks removed, leaving only the base letterforms. Intended for small sizes or contexts where the ornate style's fine detail becomes hard to discern.
 
 ---
 
@@ -39,9 +35,9 @@ The `specimen/` sheet currently covers the ornate style only.
 | `svg/simplified/` | Individual SVG files, simplified (no-diacritic) style, one per glyph |
 | `png/ornate/` | Individual PNG files, ornate style, one per glyph (black on transparent) |
 | `png/simplified/` | Individual PNG files, simplified style, one per glyph (black on transparent) |
-| `specimen/specimen-sheet.png` | Full specimen sheet, ornate style (all 61 glyphs) |
+| `specimen/specimen-sheet.png` | Full specimen sheet, ornate & simplified side by side (all 61 glyphs) |
 | `specimen/specimen-sheet.pdf` | Specimen sheet in PDF format |
-| `specimen/source.svg` | Source file with all glyphs (Inkscape, grouped) |
+| `specimen/source.svg` | Source file, ornate style only (Inkscape, grouped) |
 
 ---
 
@@ -67,7 +63,7 @@ Files in `svg/ornate/` follow the pattern `{prefix}-{transliteration}.svg`, wher
 
 ## Glyph list
 
-### alh — Allah
+### alh—Allah
 
 | File | Arabic | Transliteration | USV |
 |------|--------|----------------|-----|
@@ -78,7 +74,7 @@ Files in `svg/ornate/` follow the pattern `{prefix}-{transliteration}.svg`, wher
 | alh-tabaraka-wa-taala.svg | تبارك وتعالى | tabāraka wa ta‘ālā | FD4E |
 | alh-taala.svg | تعالى | ta‘ālā | — |
 
-### sal — Sallallahu
+### sal—Sallallahu
 
 | File | Arabic | Transliteration | USV |
 |------|--------|----------------|-----|
@@ -87,7 +83,7 @@ Files in `svg/ornate/` follow the pattern `{prefix}-{transliteration}.svg`, wher
 | sal-sallallahu-alayhi-wa-sallam-rounded.svg | صلى الله عليه وسلم | ṣallallāhu ‘alayhi wa sallam (rounded) | FDFA |
 | sal-sallallahu-alayhi-wa-sallam-square.svg | صلى الله عليه وسلم | ṣallallāhu ‘alayhi wa sallam (square) | FDFA |
 
-### slt — As-Salatu was-Salam
+### slt—As-Salatu was-Salam
 
 | File | Arabic | Transliteration | USV |
 |------|--------|----------------|-----|
@@ -97,7 +93,7 @@ Files in `svg/ornate/` follow the pattern `{prefix}-{transliteration}.svg`, wher
 | slt-alayhim-assalatu-was-salam.svg | عليهم الصلاة والسلام | ‘alayhimuṣ ṣalātu was salām | 10ED2 |
 | slt-alayhima-assalatu-was-salam.svg | عليهما الصلاة والسلام | ‘alayhimaṣ ṣalātu was salām | 10ED3 |
 
-### slm — As-Salam
+### slm—As-Salam
 
 | File | Arabic | Transliteration | USV |
 |------|--------|----------------|-----|
@@ -106,7 +102,7 @@ Files in `svg/ornate/` follow the pattern `{prefix}-{transliteration}.svg`, wher
 | slm-alayhim-assalam.svg | عليهم السلام | ‘alayhimus salām | FD48 |
 | slm-alayhima-assalam.svg | عليهما السلام | ‘alayhimas salām | FD49 |
 
-### slw — Salawatullah
+### slw—Salawatullah
 
 | File | Arabic | Transliteration |
 |------|--------|----------------|
@@ -115,7 +111,7 @@ Files in `svg/ornate/` follow the pattern `{prefix}-{transliteration}.svg`, wher
 | slw-salawatullah-alayhim.svg | صلوات الله عليهم | ṣalawātullāhi ‘alayhim |
 | slw-salawatullah-alayhima.svg | صلوات الله عليهما | ṣalawātullāhi ‘alayhimā |
 
-### rad — Radiyallahu
+### rad—Radiyallahu
 
 | File | Arabic | Transliteration | USV |
 |------|--------|----------------|-----|
@@ -126,7 +122,7 @@ Files in `svg/ornate/` follow the pattern `{prefix}-{transliteration}.svg`, wher
 | rad-radiyallahu-anhunna.svg | رضي الله عنهن | raḍiyallāhu ‘anhunna | FD45 |
 | rad-alayhim-ridhwanullah.svg | عليهم رضوان الله | ‘alayhim riḍwānullāh | — |
 
-### rhm — Rahimahullah
+### rhm—Rahimahullah
 
 | File | Arabic | Transliteration | USV |
 |------|--------|----------------|-----|
@@ -136,7 +132,7 @@ Files in `svg/ornate/` follow the pattern `{prefix}-{transliteration}.svg`, wher
 | rhm-rahimahuma-allah.svg | رحمهما الله | raḥimahumallāh | FBC9 |
 | rhm-rahimahunna-allah.svg | رحمهن الله | raḥimahunnallāh | — |
 
-### rmt — Rahmatullah
+### rmt—Rahmatullah
 
 | File | Arabic | Transliteration | USV |
 |------|--------|----------------|-----|
@@ -148,7 +144,7 @@ Files in `svg/ornate/` follow the pattern `{prefix}-{transliteration}.svg`, wher
 | rmt-alayhir-rahmah.svg | عليه الرحمة | ‘alayhir raḥmah | FBD2 |
 | rmt-alayhar-rahmah.svg | عليها الرحمة | ‘alayhar raḥmah | — |
 
-### qds — Qaddasa
+### qds—Qaddasa
 
 | File | Arabic | Transliteration | USV |
 |------|--------|----------------|-----|
@@ -161,7 +157,7 @@ Files in `svg/ornate/` follow the pattern `{prefix}-{transliteration}.svg`, wher
 | qds-quddisa-sirrahum.svg | قدس سرهم | quddisa sirrahum | 10ED5 |
 | qds-quddisat-asrarahum.svg | قدست أسرارهم | quddisat asrāruhum | 10ED7 |
 
-### hfz — Hafizahullah
+### hfz—Hafizahullah
 
 | File | Arabic | Transliteration | USV |
 |------|--------|----------------|-----|
@@ -170,7 +166,7 @@ Files in `svg/ornate/` follow the pattern `{prefix}-{transliteration}.svg`, wher
 | hfz-hafizahumallah.svg | حفظهما الله | hafiẓahumallāh | FBCF |
 | hfz-hafizahumullah.svg | حفظهم الله | hafiẓahumullāh | FBCE |
 
-### mix — Mixed
+### mix—Mixed
 
 | File | Arabic | Transliteration | USV |
 |------|--------|----------------|-----|
