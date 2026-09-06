@@ -25,7 +25,9 @@ Each glyph is available in two styles:
 - **Ornate** (`svg/ornate/`) — the original calligraphic form, with full ornamental strokes and diacritics (harakat), as described above.
 - **Simplified** (`svg/simplified/`, filenames prefixed `smp-`) — the same ligature with diacritics and ornamental marks removed, leaving only the base letterforms. Intended for small sizes or contexts where the ornate style's fine detail becomes hard to discern.
 
-`png/` and the `specimen/` sheet currently cover the ornate style only.
+For any given glyph, the ornate and simplified artwork are sized to match — no manual rescaling needed when swapping one style for the other.
+
+The `specimen/` sheet currently covers the ornate style only.
 
 ---
 
@@ -35,7 +37,8 @@ Each glyph is available in two styles:
 |------|-------------|
 | `svg/ornate/` | Individual SVG files, ornate/calligraphic style, one per glyph (union path) |
 | `svg/simplified/` | Individual SVG files, simplified (no-diacritic) style, one per glyph |
-| `png/` | Individual PNG files, ornate style, one per glyph (black on transparent) |
+| `png/ornate/` | Individual PNG files, ornate style, one per glyph (black on transparent) |
+| `png/simplified/` | Individual PNG files, simplified style, one per glyph (black on transparent) |
 | `specimen/specimen-sheet.png` | Full specimen sheet, ornate style (all 61 glyphs) |
 | `specimen/specimen-sheet.pdf` | Specimen sheet in PDF format |
 | `specimen/source.svg` | Source file with all glyphs (Inkscape, grouped) |
