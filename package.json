@@ -14,7 +14,7 @@
   "license": "CC-BY-4.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/baalwi-id/arabic-honorific-ligatures.git"
+    "url": "git+https://github.com/baalwi-id/arabic-honorific-ligatures.git"
   },
   "homepage": "https://baalwi.net",
   "files": [
