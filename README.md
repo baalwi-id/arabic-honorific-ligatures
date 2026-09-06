@@ -18,13 +18,25 @@ This collection addresses that gap. The artwork was handcrafted in Inkscape, whi
 
 ---
 
+## Styles
+
+Each glyph is available in two styles:
+
+- **Ornate** (`svg/ornate/`) — the original calligraphic form, with full ornamental strokes and diacritics (harakat), as described above.
+- **Simplified** (`svg/simplified/`, filenames prefixed `smp-`) — the same ligature with diacritics and ornamental marks removed, leaving only the base letterforms. Intended for small sizes or contexts where the ornate style's fine detail becomes hard to discern.
+
+`png/` and the `specimen/` sheet currently cover the ornate style only.
+
+---
+
 ## Contents
 
 | Path | Description |
 |------|-------------|
-| `svg/` | Individual SVG files, one per glyph (union path) |
-| `png/` | Individual PNG files, one per glyph (black on transparent) |
-| `specimen/specimen-sheet.png` | Full specimen sheet (all 61 glyphs) |
+| `svg/ornate/` | Individual SVG files, ornate/calligraphic style, one per glyph (union path) |
+| `svg/simplified/` | Individual SVG files, simplified (no-diacritic) style, one per glyph |
+| `png/` | Individual PNG files, ornate style, one per glyph (black on transparent) |
+| `specimen/specimen-sheet.png` | Full specimen sheet, ornate style (all 61 glyphs) |
 | `specimen/specimen-sheet.pdf` | Specimen sheet in PDF format |
 | `specimen/source.svg` | Source file with all glyphs (Inkscape, grouped) |
 
@@ -32,7 +44,7 @@ This collection addresses that gap. The artwork was handcrafted in Inkscape, whi
 
 ## File naming
 
-Files follow the pattern `{prefix}-{transliteration}.svg`, where prefix indicates the honorific group:
+Files in `svg/ornate/` follow the pattern `{prefix}-{transliteration}.svg`, where prefix indicates the honorific group; files in `svg/simplified/` follow the same pattern with an `smp-` prefix added (`smp-{prefix}-{transliteration}.svg`):
 
 | Prefix | Group |
 |--------|-------|

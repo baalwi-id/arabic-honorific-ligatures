@@ -1,7 +1,7 @@
 {
   "name": "arabic-honorific-ligatures",
-  "version": "1.1.1",
-  "description": "SVG artwork for 61 Arabic Islamic honorific ligatures",
+  "version": "1.2.0",
+  "description": "SVG artwork for 61 Arabic Islamic honorific ligatures, in ornate and simplified styles",
   "keywords": [
     "arabic",
     "islamic",
