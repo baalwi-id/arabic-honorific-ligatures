@@ -1,6 +1,6 @@
 # arabic-honorific-ligatures
 
-> SVG artwork for 61 Arabic Islamic honorific ligatures—freely available for use in any digital or print project.
+> SVG artwork for 62 Arabic Islamic honorific ligatures—freely available for use in any digital or print project.
 
 [![npm](https://img.shields.io/npm/v/arabic-honorific-ligatures)](https://www.npmjs.com/package/arabic-honorific-ligatures)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
@@ -35,9 +35,8 @@ Each glyph is available in two styles:
 | `svg/simplified/` | Individual SVG files, simplified (no-diacritic) style, one per glyph |
 | `png/ornate/` | Individual PNG files, ornate style, one per glyph (black on transparent) |
 | `png/simplified/` | Individual PNG files, simplified style, one per glyph (black on transparent) |
-| `specimen/specimen-sheet.png` | Full specimen sheet, ornate & simplified side by side (all 61 glyphs) |
+| `specimen/specimen-sheet.png` | Full specimen sheet, ornate & simplified side by side (all 62 glyphs) |
 | `specimen/specimen-sheet.pdf` | Specimen sheet in PDF format |
-| `specimen/source.svg` | Source file, ornate style only (Inkscape, grouped) |
 
 ---
 
@@ -174,6 +173,7 @@ Files in `svg/ornate/` follow the pattern `{prefix}-{transliteration}.svg`, wher
 | mix-gafarallahu.svg | غفر الله له | gafarallāhu lahu | — |
 | mix-karamallahu-wajhah.svg | كرم الله وجهه | karamallāhu wajhah | FDCE |
 | mix-nafaanallahu-bihi.svg | نفعنا الله به | nafa‘anallāhu bihi | — |
+| mix-waffaqahullahu.svg | وفقه الله | waffaqahullāh | — |
 | mix-nawwarallahu-marqadahu.svg | نوّر الله مرقده | nawwarallāhu marqadahu | 10ED8 |
 | mix-damat-barakatihim.svg | دامت بركاتهم | dāmat barakātihim | FBC4 |
 | mix-thaba-tsarahu.svg | طاب ثراه | ṭāba tharāhu | — |
