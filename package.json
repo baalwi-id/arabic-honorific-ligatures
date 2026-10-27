@@ -1,17 +1,19 @@
 {
   "name": "arabic-honorific-ligatures",
-  "version": "1.3.0",
-  "description": "SVG artwork for 62 Arabic Islamic honorific ligatures, in ornate and simplified styles",
+  "version": "1.4.0",
+  "description": "SVG artwork for 62 Arabic Islamic honorific ligatures, in ornate, simplified and elongated styles",
   "keywords": [
     "arabic",
     "islamic",
     "honorific",
     "svg",
     "typography",
-    "calligraphy"
+    "calligraphy",
+    "naskh",
+    "madinah-mushaf"
   ],
   "author": "Ba Alawi Masters Heritage Trust <info@baalwi.net>",
-  "license": "CC-BY-4.0",
+  "license": "(CC-BY-4.0 AND OFL-1.1)",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/baalwi-id/arabic-honorific-ligatures.git"
@@ -23,6 +25,7 @@
     "specimen/",
     "README.md",
     "LICENSE",
+    "OFL.txt",
     "!**/desktop.ini"
   ]
 }

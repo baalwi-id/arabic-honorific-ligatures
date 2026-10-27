@@ -1,9 +1,10 @@
 # arabic-honorific-ligatures
 
-> SVG artwork for 62 Arabic Islamic honorific ligatures—freely available for use in any digital or print project.
+> SVG artwork for 62 Arabic Islamic honorific ligatures in three styles—ornate, simplified and elongated—freely available for use in any digital or print project.
 
 [![npm](https://img.shields.io/npm/v/arabic-honorific-ligatures)](https://www.npmjs.com/package/arabic-honorific-ligatures)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![License: OFL 1.1 (elongated)](https://img.shields.io/badge/License-OFL%201.1%20(elongated)-lightgrey.svg)](https://openfontlicense.org)
 [![GitHub](https://img.shields.io/badge/GitHub-baalwi--id-teal)](https://github.com/baalwi-id)
 
 ---
@@ -14,16 +15,21 @@ Honorific expressions appear frequently in classical Islamic texts, yet the avai
 
 Fonts such as Scheherazade New provide solid Unicode coverage under an open license, but their honorific glyphs do not reflect the visual forms and compositions found in classical Arabic printing traditions—the kind seen in editions from publishers like Dar al-Minhaj, where honorifics are rendered with the calligraphic refinement of traditional Thuluth/Naskh. Other fonts, such as Omar Naskh, offer refined glyphs but under proprietary licenses. The KFGQPC Arabic symbol fonts come closest to the established printing standard, with elegant visual forms and compositions, but they too carry a restrictive license, cannot be freely redistributed or modified, and do not cover the full range of honorific expressions found across different Islamic scholarly traditions.
 
-This collection addresses that gap. The artwork was handcrafted in Inkscape, while the glyphs were derived from forms generated in Kaleam and Kelk, drawing inspiration from the visual forms and compositions found in KFGQPC Arabic Symbol and in classical Arabic typography. The collection is released under the CC BY 4.0, making it freely available for use in any project—digital, print, educational, commercial, or otherwise.
+This collection addresses that gap. The ornate and simplified artwork was handcrafted in Inkscape, while the glyphs were derived from forms generated in Kaleam and Kelk, drawing inspiration from the visual forms and compositions found in KFGQPC Arabic Symbol and in classical Arabic typography. These two styles are released under CC BY 4.0, making them freely available for use in any project—digital, print, educational, commercial, or otherwise.
+
+The elongated style, added in v1.4.0, takes a different route to the same goal. KFGQPC's long, single-line honorifics in the Madinah Mushaf hand of Shaykh ʿUthmān Ṭāhā cannot be reused, so these glyphs were composed from the open-licensed [DigitalKhatt New Madina](https://github.com/DigitalKhatt/madinafont) font by Amine Anane, which is modelled on that same hand. Every letterform and diacritic comes from DigitalKhatt New Madina; no outline from KFGQPC or any other closed font was used. Because the elongated glyphs are a modified version of an OFL font, they are released under the SIL Open Font License 1.1 rather than CC BY 4.0 (see [License](#license)).
 
 ---
 
 ## Styles
 
-Each glyph is available in two styles:
+Each glyph is available in three styles:
 
 - **Ornate** (`svg/ornate/`)—the original calligraphic form, with full ornamental strokes and diacritics (harakat), as described above.
 - **Simplified** (`svg/simplified/`, filenames prefixed `smp-`)—the same ligature with diacritics and ornamental marks removed, leaving only the base letterforms. Intended for small sizes or contexts where the ornate style's fine detail becomes hard to discern.
+- **Elongated** (`svg/elongated/`, filenames prefixed `elg-`)—the phrase written on a single baseline with extended letter joins (kashida), fully vocalised, in the Naskh of the Madinah Mushaf (Shaykh ʿUthmān Ṭāhā). Composed from DigitalKhatt New Madina; licensed under OFL 1.1. ṣallallāhu ʿalayhi wa sallam has one elongated form (`elg-sal-sallallahu-alayhi-wa-sallam.svg`) rather than the rounded/square pair, so this style has 61 glyphs.
+
+The elongated glyphs are scaled so that their dots (nuqṭa) match the dot size of the ornate style, which keeps the three styles visually comparable when placed side by side.
 
 ---
 
@@ -33,16 +39,18 @@ Each glyph is available in two styles:
 |------|-------------|
 | `svg/ornate/` | Individual SVG files, ornate/calligraphic style, one per glyph (union path) |
 | `svg/simplified/` | Individual SVG files, simplified (no-diacritic) style, one per glyph |
+| `svg/elongated/` | Individual SVG files, elongated (Madinah Mushaf Naskh) style, one per glyph (union path) |
 | `png/ornate/` | Individual PNG files, ornate style, one per glyph (black on transparent) |
 | `png/simplified/` | Individual PNG files, simplified style, one per glyph (black on transparent) |
-| `specimen/specimen-sheet.png` | Full specimen sheet, ornate & simplified side by side (all 62 glyphs) |
+| `png/elongated/` | Individual PNG files, elongated style, one per glyph (black on transparent) |
+| `specimen/specimen-sheet.png` | Full specimen sheet, ornate, simplified & elongated (all glyphs) |
 | `specimen/specimen-sheet.pdf` | Specimen sheet in PDF format |
 
 ---
 
 ## File naming
 
-Files in `svg/ornate/` follow the pattern `{prefix}-{transliteration}.svg`, where prefix indicates the honorific group; files in `svg/simplified/` follow the same pattern with an `smp-` prefix added (`smp-{prefix}-{transliteration}.svg`):
+Files in `svg/ornate/` follow the pattern `{prefix}-{transliteration}.svg`, where prefix indicates the honorific group; files in `svg/simplified/` follow the same pattern with an `smp-` prefix added (`smp-{prefix}-{transliteration}.svg`), and files in `svg/elongated/` with an `elg-` prefix (`elg-{prefix}-{transliteration}.svg`). PNG files in `png/` use the same names as their SVG counterparts:
 
 | Prefix | Group |
 |--------|-------|
@@ -61,6 +69,8 @@ Files in `svg/ornate/` follow the pattern `{prefix}-{transliteration}.svg`, wher
 ---
 
 ## Glyph list
+
+File names below are for the ornate style. The simplified and elongated files add the `smp-` and `elg-` prefixes to the same name (e.g. `rad-radiyallahu-anhu.svg`, `smp-rad-radiyallahu-anhu.svg`, `elg-rad-radiyallahu-anhu.svg`). The only exception is ṣallallāhu ʿalayhi wa sallam, whose two ornate forms (rounded, square) share one elongated file, `elg-sal-sallallahu-alayhi-wa-sallam.svg`.
 
 ### alh—Allah
 
@@ -195,7 +205,8 @@ Interested in developing this artwork into a full font, or have ideas for collab
 
 ## License
 
-CC BY 4.0—Waqf 2026 by Ba Alawi Masters Heritage Trust
+- **Ornate and simplified** (`svg/ornate/`, `svg/simplified/`, `png/ornate/`, `png/simplified/`): CC BY 4.0—Waqf 2026 by Ba Alawi Masters Heritage Trust. See `LICENSE`.
+- **Elongated** (`svg/elongated/`, `png/elongated/`): SIL Open Font License 1.1. See `OFL.txt`. These glyphs are composed from **DigitalKhatt New Madina** by Amine Anane (© 2020–2025 Amine Anane, © 2024–2025 Tarteel Inc.), modelled on the Madinah Mushaf calligraphy of Shaykh ʿUthmān Ṭāhā. As OFL requires, any font built from them must also be released under OFL 1.1 and may not be sold by itself. Documents, books and web pages that merely use the glyphs are not affected by this.
 
 **About Us:** Ba Alawi Masters Heritage Trust is dedicated to the preservation and advancement of the cultural and textual heritage of the Ba'alwi Masters—collecting, authenticating, and digitising manuscripts and making them freely available through digital platforms and emerging technologies. Learn more at [baalwi.net](https://baalwi.net).
 
